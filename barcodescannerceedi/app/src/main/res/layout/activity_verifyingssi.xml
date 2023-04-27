@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyingssiActivity">
+
+    <com.mmdev.loadingviewlib.LoadingView
+        android:id="@+id/loadingView"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+
+        app:loadStrokeColor="@android:color/holo_blue_bright"
+        app:loadStrokeWidth="6dp"
+        android:layout_centerInParent="true"
+
+        />
+
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_baseline_check_24"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/wrong"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_baseline_clear_24" />
+
+    <TextView
+        android:id="@+id/desription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loadingView"
+        android:layout_centerHorizontal="true"
+        android:hint="Verified User"
+
+        android:text="Verifiying User"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nametage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desription"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Subject"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/nameText"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desription"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/nametage"
+        android:hint=""
+        android:textSize="20sp" />
+
+</RelativeLayout>

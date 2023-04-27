@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/clientProfile"
+        android:title="@string/profile_label" />
+
+    <item
+        android:id="@+id/orders"
+        android:title="@string/orders" />
+
+    <item
+        android:id="@+id/shoppingCart"
+        android:title="@string/shopping_cart" />
+
+    <item
+        android:id="@+id/theme"
+        android:title="@string/theme" />
+    <item
+        android:id="@+id/clientReview"
+        android:title="@string/clientReview" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+
+</menu>

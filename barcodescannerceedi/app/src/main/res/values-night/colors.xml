@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#131313</color>
+    <color name="colorDayNight">@android:color/white</color>
+    <color name="colorBackground">#1C1B1F</color>
+    <color name="colorSplashScreenText">#616161</color>
+    <color name="colorContainer">#414758</color>
+</resources>

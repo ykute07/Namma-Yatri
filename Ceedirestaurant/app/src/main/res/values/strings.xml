@@ -1,0 +1,299 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">CEEDI</string>
+
+    <string name="chat" translatable="false">Chat</string>
+
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="system_default">System Default</string>
+
+    <!-- LOGIN ACTIVITY -->
+
+    <string name="submit_button">submit</string>
+
+    <string name="sign_up">Don\'t have an account? <u>Sign Up</u></string>
+
+    <string name="login">Login</string>
+
+    <string name="remember_me">Remember me</string>
+
+    <!-- SELECT USER TYPE ACTIVITY -->
+
+    <string name="selection_label">Are you a…</string>
+
+    <string name="manager">Manager</string>
+    <string name="rider" translatable="false">Rider</string>
+    <string name="client">Client</string>
+
+    <string name="has_account">Already have an account? <u>Log in</u></string>
+
+    <string name="confirm_button">Confirm</string>
+
+    <!-- SIGN UP ACTIVITY -->
+    <string name="create_account">Create Account</string>
+
+    <string name="next_button">next</string>
+
+    <!-- PROFILE ACTIVITY -->
+
+    <string name="profile_label">Your profile</string>
+
+    <string name="rider_status">Available</string>
+    <string name="homepage">Homepage</string>
+
+    <string name="is_location_correct">Set your address</string>
+
+    <!-- rider profile activity -->
+
+    <string name="delivery_history_rider">Deliveries history</string>
+
+    <!-- manager profile activity -->
+
+    <string name="riders_list">Riders list</string>
+
+    <!-- LOCATION ACTIVITY -->
+
+    <string name="client_position">You are here</string>
+    <string name="client_pos_snippet">Your last known location</string>
+
+    <string name="market_position" translatable="false">Market</string>
+    <string name="market_snippet">Market is here</string>
+
+    <string name="location_error">Unable to retrieve your current location</string>
+
+    <!-- CLIENT HOME ACTIVITY -->
+
+    <string name="welcome">Welcome</string>
+    <string name="products">Products</string>
+
+    <string name="error_location_not_provided">You must provide an address in order to buy products!</string>
+    <string name="confirm">Confirm</string>
+    <string name="error">Warning!</string>
+
+    <string name="remove_from_shopping_cart_title">Remove %s from shopping cart</string>
+
+    <string name="add_cart_success">Product added to shopping cart successfully</string>
+    <string name="product_removed_from_cart_success">Product removed from cart with success</string>
+
+    <string name="error_removing_from_cart">Error removing product from cart</string>
+
+    <string name="new_message_notification_title">New message from rider</string>
+    <string name="notification_channel_desc">DeliveryApp notifications</string>
+
+    <!-- RIDER PROFILE ACTIVITY -->
+    <string name="rider_status_save_failure">Failed to save availability</string>
+
+    <string name="new_delivery_title">You have a new delivery</string>
+    <string name="notification_desc_address">Address: %s</string>
+    <string name="notification_desc_distance">Distance from market: %s</string>
+
+    <!-- RIDER HOME ACTIVITY -->
+    <string name="location">Location:</string>
+    <string name="date_order">Date:</string>
+    <string name="distance">Distance:</string>
+
+    <string name="rider_home_label">Incoming deliveries</string>
+
+    <string name="rider_delivery">My delivery</string>
+
+    <string name="accept_order">Accept</string>
+    <string name="reject_order">Reject</string>
+    <string name="view_map_order">Map</string>
+
+    <string name="client_marker">Client</string>
+
+    <string name="no_current_delivery">There is no current delivery</string>
+
+    <string name="dialog_title_rider">Accept or Reject order</string>
+
+    <string name="title_activity_delivery_map">Map</string>
+
+    <!-- RIDER CHAT ACTIVITY -->
+
+    <string name="delivery_start_auto_msg">*** AUTOMATIC MESSAGE: DELIVERY IN PROGRESS ***</string>
+    <string name="no_chat_found">No chats found</string>
+
+    <string name="new_message_from_manager">New message from manager</string>
+    <string name="new_message_from_client">New message from client</string>
+
+    <!-- ACTIVITY RIDER DELIVERY -->
+    <string name="total_price_delivery">Total: %s</string>
+
+    <string name="delivery_date">Date: %s</string>
+    <string name="delivery_location">Location: %s</string>
+    <string name="delivery_payment_type">Payment type: %s</string>
+    <string name="delivery_total_payment">Total: %s</string>
+
+
+    <string name="delivery_failure">failed</string>
+    <string name="delivery_success">succeeded</string>
+
+    <string name="start_delivery">Start delivery</string>
+
+    <!-- menu -->
+    <string name="shopping_cart">Shopping cart</string>
+    <string name="orders">Your orders</string>
+    <string name="logout">Log out</string>
+    <string name="theme">Themes</string>
+    <string name="clientReview">Add a Review</string>
+
+    <string name="current_delivery">Current delivery</string>
+
+    <!-- RIDER ORDER HISTORY ACTIVITY -->
+    <string name="delivery_history">Delivery History</string>
+    <string name="my_past_deliveries">My past deliveries</string>
+
+    <!-- RIDERS LIST ACTIVITY -->
+    <string name="your_riders">Your riders</string>
+
+    <string name="error_getting_riders">Error getting rider list</string>
+
+    <string name="driver_unavailable">Attention, the rider selected is currently unavailable</string>
+
+    <string name="ok" translatable="false">OK</string>
+
+    <string name="rider_selected_title">Rider selected: %s</string>
+
+    <string name="chat_with_rider">Chat with Rider</string>
+    <string name="select_for_delivery">Select Rider for delivery</string>
+
+    <string name="order_sent_success">Order sent successfully</string>
+    <string name="order_sent_failure">Failed to send order</string>
+
+    <string name="rider_info_msg">Rider has %s the order</string>
+    <string name="rider_accept">accepted</string>
+    <string name="rider_reject">rejected</string>
+
+    <string name="select_another_rider">Select another rider</string>
+
+    <string name="outcome">Outcome: </string>
+    <string name="state" translatable="false">State</string>
+    <string name="type" tools:ignore="MissingTranslation">Type</string>
+
+    <!-- ADD PRODUCT ACTIVITY -->
+
+    <string name="add_product_activity">Add a new product</string>
+
+    <string name="description_hint">Description</string>
+
+    <string name="camera_permission_denied">Camera permission denied</string>
+
+    <string name="new_image_title">New image</string>
+    <string name="new_image_desc_camera">From camera</string>
+    <string name="new_image_desc_gallery">From gallery</string>
+
+    <string name="dialog_select_image_title">Select image from…</string>
+
+    <string name="please_fill">Please fill</string>
+    <string name="invalid_price">Invalid price</string>
+    <string name="invalid_quantity">Invalid quantity</string>
+
+    <string name="invalid_values">Error uploading, invalid values inserted</string>
+
+    <string name="data_upload_success">Data uploaded with success</string>
+    <string name="data_upload_failure">Error uploading data</string>
+
+    <!-- CHANGE PRODUCT IMAGE ACTIVITY -->
+    <string name="image_upload_success">Image uploaded with success</string>
+    <string name="image_upload_failure">Failed to upload image</string>
+    <string name="error_image_url">Error getting download url</string>
+
+    <!-- ORDER DETAIL ACTIVITY -->
+
+    <string name="order_info">Order of %s</string>
+
+    <!-- SHOPPING CART ACTIVITY -->
+
+    <string name="total_price">Total:</string>
+    <string name="empty_cart">Your cart is empty</string>
+    <string name="place_order">Place order</string>
+
+    <string name="please_select_payment">Please select payment type</string>
+
+    <!-- checkout dialog -->
+    <string name="payment_info">Payment will occur exclusively through the rider</string>
+    <string name="cash">Cash</string>
+    <string name="credit_card">Credit Card</string>
+
+    <string name="order_success">Order placed successfully</string>
+    <string name="order_failure">Failed to place order</string>
+
+    <!-- CLIENT ORDERS ACTIVITY -->
+
+    <string name="recent_orders">Your recent orders</string>
+
+    <string name="date">Date: </string>
+    <string name="total">Total: </string>
+    <string name="payment">Payment: </string>
+
+    <string name="empty_orders">You have no recent orders</string>
+
+    <!-- MANAGER HOME ACTIVITY -->
+    <string name="data_update_success">Data updated with success</string>
+    <string name="error_updating_database">Error updating database</string>
+    <string name="euro" translatable="false">₹</string>
+
+    <string name="riders_map" translatable="false">Riders</string>
+
+    <string name="riders_map_title">Riders Map</string>
+
+    <string name="rider_is_delivering">Delivering</string>
+
+    <string name="empty">Empty</string>
+
+    <!-- MANAGER ORDER ACTIVITY -->
+
+    <string name="select_order">Select an order to give it to your riders</string>
+
+    <string name="client_email">Email: </string>
+
+    <string name="new_order_notification_msg">You have a new order</string>
+    <string name="new_order_description">A new order has been sent to your market</string>
+
+    <string name="incoming_orders">Orders</string>
+
+    <string name="failure_data">Failed to get data</string>
+
+    <!-- MANAGER RIDER WITH ORDERS -->
+
+    <!-- hints -->
+    <string name="location_hint">Address</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="search_location_hint">Search for your location</string>
+
+    <string name="product_name_hint">Product name</string>
+    <string name="product_price_hint">Price</string>
+    <string name="product_qty_hint">Quantity</string>
+
+    <!-- errors -->
+    <string name="empty_email">Please enter email</string>
+    <string name="empty_password">Please enter password</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_password">Password should be at least 6 characters</string>
+    <string name="password_not_match">Password does not match</string>
+    <string name="sign_up_failure">Sign Up failed</string>
+    <string name="login_failure">Authentication failed</string>
+    <string name="title_activity_location">Map</string>
+    <string name="save_location_failed">Could not save your location</string>
+    <string name="error_user_data">Error fetching user data</string>
+
+    <string name="error_invalid_price">Price cannot be 0</string>
+
+    <string name="manager_existence_error">Manager already exists!</string>
+
+    <string name="please_add_quantity">Please add some quantity</string>
+    <string name="error_product_quantity">Max quantity reached</string>
+    <string name="error_shopping_cart">There was an error adding product to shopping cart</string>
+
+    <!-- client location is > 10 km from market -->
+    <string name="location_distance_error">Unfortunately you\'re too far from service area. You have to be within 10 Km from the Market</string>
+    <string name="too_far_title">You\'re too far :(</string>
+    <string name="fix_my_location">Fix location</string>
+    <string name="location_update_success">Location updated with success</string>
+    <string name="location_update_failure">Failed to update location</string>
+    <string name="title_activity_client_rider_map" translatable="false">Map</string>
+
+
+</resources>

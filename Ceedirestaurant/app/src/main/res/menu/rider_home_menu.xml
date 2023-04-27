@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/riderProfile"
+        android:title="@string/profile_label" />
+
+    <item
+        android:id="@+id/currentDelivery"
+        android:title="@string/current_delivery" />
+
+    <item
+        android:id="@+id/riderDeliveries"
+        android:title="@string/delivery_history_rider" />
+
+    <item
+        android:id="@+id/theme"
+        android:title="@string/theme" />
+    <item
+        android:id="@+id/applyForLoan"
+        android:title="Apply for Loan"
+        />
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback" />
+
+    <item
+        android:id="@+id/workdata"
+        android:title="Work Data"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+
+
+</menu>

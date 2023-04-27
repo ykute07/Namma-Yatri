@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.deliveryapp"
+    android:versionCode="65"
+    android:versionName="v1.4.0">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DeliveryApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".rider.ApplyLoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rider.CeediIdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rider.WorkDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerificationOfIdentityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingRiderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".rider.RiderFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".manager.ManagerFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".client.ReviewRiderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".client.ReviewRestaurantActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".client.ClientReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".client.ClientReview"
+            android:exported="false" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCEYWDvXYIQLtIWniZUJYuxntBK_kTF5H0" />
+        <meta-data
+            android:name="firebase_performance_logcat_enabled"
+            android:value="true" />
+
+        <activity
+            android:name=".SsiWallet"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="VERITE ID" />
+        <activity
+            android:name=".ThemeActivity"
+            android:label="@string/theme"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".client.ClientRiderMapActivity"
+            android:label="@string/title_activity_client_rider_map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manager.RidersMapActivity"
+            android:label="@string/riders_map_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manager.ManagerRiderActivity"
+            android:label="@string/rider"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".rider.RiderDeliveryHistoryActivity"
+            android:label="@string/delivery_history"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".manager.ManagerChatActivity"
+            android:label="@string/chat"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".client.ClientChatActivity"
+            android:label="@string/chat"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".rider.RiderChatActivity"
+            android:label="@string/chat"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".rider.RiderDeliveryActivity"
+            android:label="@string/rider_delivery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rider.DeliveryMapActivity"
+            android:label="@string/title_activity_delivery_map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manager.ChangeProductImageActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".manager.ManagerOrderActivity"
+            android:label="@string/orders" />
+        <activity
+            android:name=".client.ClientOrdersActivity"
+            android:label="@string/orders"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".client.ShoppingCartActivity"
+            android:label="@string/shopping_cart"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".manager.AddProductActivity"
+            android:label="@string/add_product_activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".manager.ManagerRidersListActivity"
+            android:label="@string/your_riders"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".manager.ManagerHomeActivity"
+            android:label="@string/homepage"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".rider.RiderHomeActivity"
+            android:label="@string/homepage"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".client.ClientHomeActivity"
+            android:label="@string/homepage"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login"
+            android:noHistory="true"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.ClientLocationActivity"
+            android:label="@string/title_activity_location"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".client.ClientProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".rider.RiderProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".manager.ManagerProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".SelectUserTypeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
