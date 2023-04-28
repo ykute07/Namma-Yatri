@@ -3,6 +3,7 @@
 
 <img src='./ScreenShot/Ceedi.jpg' />
 
+
 ## Problem 
 1. Lack of clarity on career planning
 2. Lack of opportunities to upskill or retraining
@@ -20,12 +21,12 @@
 
 
 
+<img src = './ScreenShot/community.jpg' />
+<img src = './ScreenShot/three_reason.jpg' />
 
 ## How to Install
 1.  Clone the Repo or Download the Source File
-
 2.  Transfer the both apk file from APK Folder to Android Phone
-
 3.  Install the Application.
 
 
